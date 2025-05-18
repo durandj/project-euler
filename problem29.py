@@ -4,7 +4,7 @@ def solution(limit: int) -> int:
         for b in range(2, limit + 1):
             results.add(a**b)
 
-    print(len(results))
+    return len(results)
 
 
 print("solution(5) =>", solution(5))
